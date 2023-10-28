@@ -14,7 +14,7 @@ resource "google_compute_instance" "vm_instance" {
     access_config {
     }
   }
-}
+} 
 
 resource "google_storage_bucket" "auto-expire" {
   name          = "lithe-center-400712-auto-expiring-bucket"

@@ -10,6 +10,6 @@ terraform {
 provider "google" {
   project = "lithe-center-400712"
   region  = "us-central1"
-  zone    = "us-central1-c"
+  zone    = "us-central1-a"
 }
 
