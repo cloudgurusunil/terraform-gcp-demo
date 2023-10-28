@@ -17,7 +17,7 @@ resource "google_compute_instance" "vm_instance" {
 } 
 
 resource "google_storage_bucket" "auto-expire" {
-  name          = "lithe-center-400712-auto-expiring-bucket"
+  name          = "terraform-400712-auto-expiring-bucket"
   location      = "US"
   force_destroy = true
 

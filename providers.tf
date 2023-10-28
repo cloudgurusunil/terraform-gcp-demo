@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  project = "lithe-center-400712"
+  project = "terraform-400712"
   region  = "us-central1"
   zone    = "us-central1-a"
 }
